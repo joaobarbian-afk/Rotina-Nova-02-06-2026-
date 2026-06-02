@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ba8hOQJwAyc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\436479624\\Documents\\Nova rotina (Com MQTT)\\NovaRotina.MqttSimulator\\NovaRotina.MqttSimulator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\436479624\\.nuget\\packages\\mqttnet\\4.3.7.1207\\mqttnet.4.3.7.1207.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA ROTINA (COM MQTT)</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Monitoramento e mtempo real KB</h1>
+        <p>Monitoramento Industrial em Tempo Real</p>
+    </header>
+
+    <section class="controls">
+        <button id="btnStart">
+            Iniciar Monitoramento
+        </button>
+
+        <button id="btnStop">
+            Parar Monitoramento
+        </button>
+    </section>
+
+    <section class="charts">
+
+        <div class="card">
+            <h2>🌡️Temperatura</h2>
+            <canvas id="temperatureChart"></canvas>
+        </div>
+
+        <div class="card">
+            <h2>💧Umidade</h2>
+            <canvas id="humidityChart"></canvas>
+        </div>
+
+        <div class="card">
+            <h2>📏Proximidade</h2>
+            <canvas id="proximityChart"></canvas>
+        </div>
+
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
